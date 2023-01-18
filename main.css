@@ -1,0 +1,41 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: 'League Gothic', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: space-around;
+    position: fixed;
+    top: 0;
+}
+
+
+.tributeTo{
+    width: 10%;
+    color:#fff;
+    
+}
+.header-aria{
+    margin: 0;
+    background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2023-01/230113-bella-ramsey-last-of-us-mn-1010-d6a81f.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+}
